@@ -3,6 +3,7 @@ import geopandas as gpd
 from shapely.geometry import Point
 
 # Load the CSV
+# Source: https://ourairports.com/data/airports.csv
 df = pd.read_csv("/home/pranav/repos/no_fly_zone/data/airports.csv")
 
 # Filter military or closed airports
